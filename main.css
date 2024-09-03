@@ -15,6 +15,9 @@ ul {
   padding: 0;
   margin: 0;
 }
+img {
+  max-width: 100%;
+}
 h1,
 h2,
 h3,
@@ -118,4 +121,35 @@ h6 {
 .welcome_desk {
   padding: 40px 0px;
   font-size: 14px;
+}
+.food_list {
+  padding: 100px 0px;
+}
+.food_list .container {
+  display: flex;
+  margin: 0px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.food_list_card {
+  width: 250px;
+  background-color: #2c2828;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+}
+.food_list_image {
+  height: 175px;
+  object-fit: cover;
+}
+.food_list_title {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.food_list_desk {
+  font-size: 15px;
+  opacity: 0.7;
+}
+.food_list_wrapper {
+  padding: 30px 20px;
 }
